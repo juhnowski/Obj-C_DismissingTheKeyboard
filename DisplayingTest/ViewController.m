@@ -26,4 +26,8 @@
 }
 
 
+- (IBAction)PressButton:(id)sender {
+    self.Label.text = self.TextEdit.text;
+    [self resignFirstResponder];
+}
 @end
